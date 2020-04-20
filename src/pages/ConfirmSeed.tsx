@@ -103,6 +103,7 @@ export default (): ReactElement => {
         return {
 			password: state.app.creationWallet.password,
 			seed: state.app.creationWallet.seed,
+			derivationPath: state.app.creationWallet.derivationPath,
         };
     });
 
